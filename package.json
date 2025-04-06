@@ -8,6 +8,7 @@
 	"repository": {
 		"url": "https://github.com/Knightshrestha/rte"
 	},
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
