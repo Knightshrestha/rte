@@ -1,0 +1,22 @@
+.prose * {
+	margin: 0;
+	padding: 0;
+}
+
+div:has(> .sth_cust) {
+	height: 100%;
+}
+
+.tiptap .is-empty::before {
+	color: var(--base-content);
+	opacity: 0.3;
+	content: attr(data-placeholder);
+	float: left;
+	height: 0;
+	pointer-events: none;
+}
+
+.tiptap ol,
+.tiptap ul {
+	margin-left: 1rem;
+}
