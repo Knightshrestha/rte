@@ -5,10 +5,10 @@
 
 <fieldset class="fieldset">
 	<legend class="fieldset-legend input-lg text-lg">Rich text editor</legend>
-	<!-- <Editor
+	<Editor
 		initialValue={description}
 		onChange={(data: string) => {
 			description = data;
 		}}
-	/> -->
+	/>
 </fieldset>

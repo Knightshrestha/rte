@@ -1,6 +1,13 @@
 {
-	"name": "rte",
+	"name": "@knightshrestha/rich_text_editor",
 	"version": "0.0.1",
+	"author": {
+		"name": "Knight Shrestha",
+		"url": "https://github.com/Knightshrestha"
+	},
+	"repository": {
+		"url": "https://github.com/Knightshrestha/rte"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
